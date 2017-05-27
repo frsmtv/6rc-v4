@@ -1,0 +1,46 @@
+header {
+  background: url('../img/art.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  padding: 40px;
+  text-transform: uppercase;
+  #main-nav {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    font-size: .8rem;
+  }
+  #mobile-nav {
+    display: none;
+  }
+  h1 {
+    letter-spacing: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Yep! */
+    width: 100%;
+    margin: 40px;
+    font-size: 3rem;
+  }
+  #palmares {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    width: 40%;
+    // margin-left: 60%;
+    // margin-top: 40vh;
+    text-align: right;
+    h2 {
+      letter-spacing: 4px;
+      font-style: italic;
+      font-size: .9rem;
+    }
+  }
+}
