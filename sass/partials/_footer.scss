@@ -1,9 +1,46 @@
 footer {
-  background: url('../img/art.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
+  // background: url('../img/art.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center center;
   padding: 40px;
   text-transform: uppercase;
+  background: #061E20;
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 2;
+  h2, h3 {
+    letter-spacing: 8px;
+  }
+  #contact-creds-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    #contact {
+      text-align: left;
+      #social {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0;
+        font-size: 1.2rem;
+      }
+    }
+    #credits {
+      text-align: right;
+      #logos {
+          width: 30%;
+          margin: 40px auto;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            img {
+              width: 50px;
+            }
+        }
+      }
+    }
+  }
+  #copyright {
+    font-size: .6rem;
+  }
 }

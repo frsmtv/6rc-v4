@@ -7,14 +7,18 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100vw;
-  overflow-x: hidden;
   font-size: 16px;
   font-family: sans-serif;
   line-height: 1.6;
   letter-spacing: 2px;
   color: #fff;
-  background: #061E20;
+  // background: #061E20;
+  background: url('../img/art.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 a {
@@ -37,17 +41,17 @@ ul {
 }
 
 // SCROLLBARS
-::-webkit-scrollbar {
-    width: 4px;
-}
-::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #000;
-}
-::-webkit-scrollbar-thumb:hover {
-}
+// ::-webkit-scrollbar {
+//     width: 4px;
+// }
+// ::-webkit-scrollbar-track {
+//     background-color: transparent;
+// }
+// ::-webkit-scrollbar-thumb {
+//     background-color: #000;
+// }
+// ::-webkit-scrollbar-thumb:hover {
+// }
 
 div.parallax {
   height: 500px;
@@ -60,5 +64,8 @@ main {
     width: 100%;
     height: 100vh;
   }
+}
 
+.section {
+  background: black;
 }
